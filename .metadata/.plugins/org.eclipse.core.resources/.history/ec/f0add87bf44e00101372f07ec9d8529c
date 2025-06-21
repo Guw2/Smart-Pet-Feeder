@@ -1,0 +1,5 @@
+package com.lorian.sensor_service.petDetection;
+
+public class PetDetection {
+
+}

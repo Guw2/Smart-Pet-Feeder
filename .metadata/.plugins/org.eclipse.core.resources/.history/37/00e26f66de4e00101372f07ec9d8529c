@@ -1,0 +1,20 @@
+package com.lorian.feeder_service;
+
+public class Main {
+	
+	public static String firstUniqueChar(String s) {
+		String characters = null;
+		
+		for(char c : s.toCharArray()) {
+			if() {
+				
+			}
+		}
+		
+		return characters;
+	}
+	
+	public static void main(String[] args) {
+		System.out.println(firstUniqueChar("aabbccddeffgg"));
+	}
+}

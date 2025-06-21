@@ -1,0 +1,21 @@
+services:
+
+    mysql:
+        image: mysql:8.0
+        container_name: smartpetfeeder_database_container
+        environment:
+            MYSQL_DATABASE: smartpetfeeder
+            MYSQL_ROOT_PASSWORD: root
+        ports:
+            - 3306:3306
+        volumes:
+            - smartpetfeeder:/var/lib/mysql
+    rabbitmq:
+        image: rabbitmq:3.8.6-management
+        container_name: smartpetfeeder_amqp_container
+        ports:
+            - 5672:5672
+            - 15672:15672
+
+volumes:
+    smartpetfeeder:
