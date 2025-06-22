@@ -1,0 +1,8 @@
+package com.lorian.sensor_service.petDetection.dtos;
+
+import java.time.Instant;
+import java.util.Date;
+
+public record PetDetectionGetDTO(Long id, Long petId, String sensorLocation, Instant detectedAt) {
+
+}

@@ -1,5 +1,6 @@
 package com.lorian.sensor_service.petDetection;
 
+import java.time.Instant;
 import java.util.Date;
 import java.util.Objects;
 
@@ -23,11 +24,11 @@ public class PetDetection {
 	private String sensorLocation;
 	
 	@Column
-	private Date detectedAt;
+	private Instant detectedAt;
 
 	public PetDetection() {}
 
-	public PetDetection(Long id, Long petId, String sensorLocation, Date detectedAt) {
+	public PetDetection(Long id, Long petId, String sensorLocation, Instant detectedAt) {
 		this.id = id;
 		this.petId = petId;
 		this.sensorLocation = sensorLocation;
@@ -58,11 +59,11 @@ public class PetDetection {
 		this.sensorLocation = sensorLocation;
 	}
 
-	public Date getDetectedAt() {
+	public Instant getDetectedAt() {
 		return detectedAt;
 	}
 
-	public void setDetectedAt(Date detectedAt) {
+	public void setDetectedAt(Instant detectedAt) {
 		this.detectedAt = detectedAt;
 	}
 

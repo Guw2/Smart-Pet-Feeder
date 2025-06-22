@@ -1,0 +1,24 @@
+package com.lorian.sensor_service.petDetection;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.lorian.sensor_service.petDetection.dtos.PetDetectionGetDTO;
+
+@Service
+public class PetDetectionService {
+
+	private final PetDetectionRepository repo;
+	private final PetDetectionService service;
+	
+	public PetDetectionService(PetDetectionRepository repo, PetDetectionService service) {
+		this.repo = repo;
+		this.service = service;
+	}
+	
+	public List<PetDetectionGetDTO> getAllDetections(){
+		return repo.findAll().stream().map(x -> PetDetectionMapper.postDtoToPetDetection(x)).toList();
+	}
+	
+}
