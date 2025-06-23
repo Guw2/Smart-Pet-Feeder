@@ -1,7 +1,6 @@
 package com.lorian.sensor_service.petDetection;
 
 import java.time.Instant;
-import java.util.Date;
 import java.util.Objects;
 
 import jakarta.persistence.Column;
