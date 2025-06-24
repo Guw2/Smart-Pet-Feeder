@@ -28,4 +28,5 @@
     <fullyQualifiedTypeName name="com.lorian.sensor_service.petDetection.dtos.PetDetectionPostDTO"/>
     <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
     <fullyQualifiedTypeName name="java.time.Instant"/>
+    <fullyQualifiedTypeName name="org.springframework.amqp.rabbit.annotation.EnableRabbit"/>
 </qualifiedTypeNameHistroy>
