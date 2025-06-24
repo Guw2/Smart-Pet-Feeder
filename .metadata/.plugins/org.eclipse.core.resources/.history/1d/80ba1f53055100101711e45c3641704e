@@ -1,0 +1,5 @@
+package com.lorian.feeder_service.consumer;
+
+public class FeederConsumer {
+
+}
