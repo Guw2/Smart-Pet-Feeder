@@ -1,5 +1,0 @@
-package com.lorian.sensor_service.petDetection;
-
-public interface PetDetectionRepository {
-
-}
