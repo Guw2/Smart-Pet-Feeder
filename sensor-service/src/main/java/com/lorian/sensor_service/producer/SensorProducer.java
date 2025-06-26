@@ -14,10 +14,12 @@ public class SensorProducer {
 	private final AmqpTemplate amqpTemplate;
 	private final ObjectMapper objectMapper = new ObjectMapper();
 	
+	// Constructor Injection
 	public SensorProducer(AmqpTemplate amqpTemplate) {
 		this.amqpTemplate = amqpTemplate;
 	}
 	
+	// Method that indicates that the sensor has been activated and sends a JSON to a queue
 	public void activateSensor(PetDetectionPostDTO dto) throws JsonProcessingException, AmqpException {
 		amqpTemplate.convertAndSend(
 					"pet-events-exchange",
