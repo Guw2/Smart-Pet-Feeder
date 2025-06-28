@@ -6,6 +6,8 @@
 ](https://www.rabbitmq.com/)
 ![Docker](https://img.shields.io/badge/Docker-✓-lightblue)  
 
+> 🌎 [README em português disponível na pasta raiz do projeto](README-pt.md)
+
 
 A distributed smart feeding system for pets, built using microservice architecture and asynchronous communication via RabbitMQ.
 
