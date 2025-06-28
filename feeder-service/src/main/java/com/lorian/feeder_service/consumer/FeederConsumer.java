@@ -12,6 +12,7 @@ public class FeederConsumer {
 	public void sensorActivated(@Payload Message<?> msg) {
 		// Prints the payload to the console
 		System.out.println(msg.getPayload());
+		System.out.println("Feeding...");
 	}
 	
 }

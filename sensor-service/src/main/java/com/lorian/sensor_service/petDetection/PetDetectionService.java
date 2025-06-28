@@ -2,10 +2,8 @@ package com.lorian.sensor_service.petDetection;
 
 import java.util.List;
 
-import org.springframework.amqp.AmqpException;
 import org.springframework.stereotype.Service;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.lorian.sensor_service.petDetection.dtos.PetDetectionGetDTO;
 import com.lorian.sensor_service.petDetection.dtos.PetDetectionPostDTO;
 import com.lorian.sensor_service.producer.SensorProducer;
