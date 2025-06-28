@@ -4,6 +4,7 @@
 [![MySQL](https://img.shields.io/badge/MySQL-8-%234479A1?logo=mysql)](https://www.mysql.com/)
 [![RabbitMQ](https://img.shields.io/badge/RabbitMQ-3.8.6-%23FF6600?logo=rabbitmq&logoColor=white)
 ](https://www.rabbitmq.com/)
+![Docker](https://img.shields.io/badge/Docker-✓-lightblue)  
 
 
 A distributed smart feeding system for pets, built using microservice architecture and asynchronous communication via RabbitMQ.
