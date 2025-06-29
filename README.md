@@ -72,8 +72,8 @@ This project demonstrates:
   - Simulate food dispensing
 
 **Listens to queue:** `pet-feeder-queue`  
-**Exchange:** `pet.events.exchange`  
-**Routing Key:** `pet.detected`
+**Exchange:** `pet-events-exchange`  
+**Routing Key:** `pet-feeder-routing-key`
 
 ---
 

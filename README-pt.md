@@ -69,8 +69,8 @@ Este projeto demonstra:
   - Simular a liberação de ração  
 
 **Escuta a fila:** `pet-feeder-queue`  
-**Exchange:** `pet.events.exchange`  
-**Chave de Roteamento:** `pet.detected`  
+**Exchange:** `pet-events-exchange`  
+**Chave de Roteamento:** `pet-feeder-routing-key`  
 
 ---  
 
